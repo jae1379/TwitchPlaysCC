@@ -5,12 +5,19 @@
 	"homepage": "https://github.com/jbmagination/TwitchPlaysCC",
 	"repository": "github:jbmagination/TwitchPlaysCC",
 	"dependencies": {
+		"autocorrect": "^1.2.0",
 		"fs": "0.0.1-security",
 		"json5": "^2.1.1",
+		"leven": "^3.1.0",
 		"robotjs": "^0.6.0",
 		"tmi.js": "^1.5.0"
 	},
 	"devDependencies": {
-		"eslint": "^6.8.0"
+		"eslint": "^6.8.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-plugin-import": "^2.18.0",
+		"eslint-plugin-node": "^7.0.1",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.0"
 	}
 }
